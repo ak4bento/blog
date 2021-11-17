@@ -1,0 +1,14 @@
+{
+    "name": "wisdmlabs/todolist",
+    "description": "You can create the to-do-list of your task.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "akilsagitarius",
+            "email": "akil.dcc@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
