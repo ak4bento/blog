@@ -21,7 +21,7 @@ export default {
 
             instance.defaults.headers.common['X-CSRF-TOKEN'] =
                 document.head.querySelector('meta[name="csrf-token"]').content;
-            instance.defaults.baseURL = '/canvas-ui';
+            instance.defaults.baseURL = '/news';
 
             const requestHandler = (request) => {
                 // Add any request modifiers...

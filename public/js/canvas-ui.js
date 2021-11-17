@@ -2281,7 +2281,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
   metaInfo: function metaInfo() {
     return {
-      title: 'Canva'
+      title: 'Laravel Indonesia'
     };
   },
   data: function data() {
@@ -2427,7 +2427,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
   metaInfo: function metaInfo() {
     return {
-      title: 'Canva'
+      title: 'Laravel Indonesia'
     };
   },
   data: function data() {
@@ -2552,7 +2552,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
   metaInfo: function metaInfo() {
     return {
-      title: 'Canva'
+      title: 'Laravel Indonesia'
     };
   },
   data: function data() {
@@ -2997,7 +2997,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
   metaInfo: function metaInfo() {
     return {
-      title: this.tag ? this.tag.name : 'Canvas'
+      title: this.tag ? this.tag.name : 'Article'
     };
   },
   data: function data() {
@@ -3201,7 +3201,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
   metaInfo: function metaInfo() {
     return {
-      title: this.topic ? this.topic.name : 'Canvas'
+      title: this.topic ? this.topic.name : 'Article'
     };
   },
   data: function data() {
@@ -3424,7 +3424,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
   metaInfo: function metaInfo() {
     return {
-      title: this.user ? this.user.name : 'Canvas'
+      title: this.user ? this.user.name : 'Article'
     };
   },
   data: function data() {
@@ -3545,7 +3545,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     request: function request() {
       var instance = axios__WEBPACK_IMPORTED_MODULE_0___default().create();
       instance.defaults.headers.common['X-CSRF-TOKEN'] = document.head.querySelector('meta[name="csrf-token"]').content;
-      instance.defaults.baseURL = '/canvas-ui';
+      instance.defaults.baseURL = '/news';
 
       var requestHandler = function requestHandler(request) {
         // Add any request modifiers...
@@ -3676,7 +3676,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   path: '*',
   name: 'catch-all',
-  redirect: '/canvas-ui'
+  redirect: '/news'
 }]);
 
 /***/ }),
@@ -94639,7 +94639,7 @@ var render = function () {
                   "navbar-brand hover font-weight-bolder font-serif mr-3",
                 attrs: { to: { name: "posts" } },
               },
-              [_vm._v("\n                AKIL\n            ")]
+              [_vm._v("\n                Laravel Indonesia\n            ")]
             ),
             _vm._v(" "),
             _c(
@@ -94867,10 +94867,10 @@ var render = function () {
                   "col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 mt-3",
               },
               [
-                _c("h1", { staticClass: "font-serif" }, [_vm._v("Canva")]),
+                _c("h1", { staticClass: "font-serif" }, [_vm._v("Article")]),
                 _vm._v(" "),
                 _c("p", { staticClass: "lead text-secondary" }, [
-                  _vm._v("A Laravel Publishing Platform"),
+                  _vm._v("A Laravel Indonesia Blog"),
                 ]),
                 _vm._v(" "),
                 _c("main", { staticClass: "mt-5", attrs: { role: "main" } }, [
@@ -95120,10 +95120,10 @@ var render = function () {
                   "col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 mt-3",
               },
               [
-                _c("h1", { staticClass: "font-serif" }, [_vm._v("Canvas")]),
+                _c("h1", { staticClass: "font-serif" }, [_vm._v("Article")]),
                 _vm._v(" "),
                 _c("p", { staticClass: "lead text-secondary" }, [
-                  _vm._v("A Laravel Publishing Platform"),
+                  _vm._v("A Laravel Indonesia Blog"),
                 ]),
                 _vm._v(" "),
                 _c("main", { staticClass: "mt-5", attrs: { role: "main" } }, [
@@ -95260,10 +95260,10 @@ var render = function () {
                   "col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 mt-3",
               },
               [
-                _c("h1", { staticClass: "font-serif" }, [_vm._v("Canvas")]),
+                _c("h1", { staticClass: "font-serif" }, [_vm._v("Article")]),
                 _vm._v(" "),
                 _c("p", { staticClass: "lead text-secondary" }, [
-                  _vm._v("A Laravel Publishing Platform"),
+                  _vm._v("A Laravel Indonesia Blog"),
                 ]),
                 _vm._v(" "),
                 _c("main", { staticClass: "mt-5", attrs: { role: "main" } }, [
@@ -114027,7 +114027,7 @@ nprogress__WEBPACK_IMPORTED_MODULE_0___default().configure({
   speed: 300
 });
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_6__["default"]({
-  base: 'canvas-ui',
+  base: 'news',
   mode: 'history',
   routes: _routes__WEBPACK_IMPORTED_MODULE_4__["default"]
 });

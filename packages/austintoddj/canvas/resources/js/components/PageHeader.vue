@@ -3,7 +3,7 @@
         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
             <nav class="navbar d-flex px-0 py-1">
                 <router-link :to="{ name: 'home' }" class="navbar-brand hover font-weight-bolder font-serif mr-3">
-                    AKIL
+                    Laravel Indonesia
                 </router-link>
 
                 <slot name="status" />

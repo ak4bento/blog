@@ -102,7 +102,7 @@ export default {
 
     metaInfo() {
         return {
-            title: this.user ? this.user.name : 'Canvas',
+            title: this.user ? this.user.name : 'Article',
         };
     },
 

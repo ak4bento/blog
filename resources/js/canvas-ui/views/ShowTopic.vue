@@ -83,7 +83,7 @@ export default {
 
     metaInfo() {
         return {
-            title: this.topic ? this.topic.name : 'Canvas',
+            title: this.topic ? this.topic.name : 'Article',
         };
     },
 

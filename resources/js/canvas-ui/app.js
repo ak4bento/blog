@@ -27,7 +27,7 @@ NProgress.configure({
 });
 
 const router = new Router({
-    base: 'canvas-ui',
+    base: 'news',
     mode: 'history',
     routes,
 });

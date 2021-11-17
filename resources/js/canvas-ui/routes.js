@@ -45,6 +45,6 @@ export default [
     {
         path: '*',
         name: 'catch-all',
-        redirect: '/canvas-ui',
+        redirect: '/news',
     },
 ];

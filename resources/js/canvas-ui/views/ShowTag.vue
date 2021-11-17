@@ -83,7 +83,7 @@ export default {
 
     metaInfo() {
         return {
-            title: this.tag ? this.tag.name : 'Canvas',
+            title: this.tag ? this.tag.name : 'Article',
         };
     },
 
